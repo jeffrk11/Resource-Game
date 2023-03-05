@@ -1,0 +1,28 @@
+Sat Mar 04 23:27:57 BRT 2023 Main Update Loop threw an exception:
+java.lang.IllegalArgumentException: negative width
+	at java.desktop/java.awt.BasicStroke.<init>(BasicStroke.java:194)
+	at java.desktop/java.awt.BasicStroke.<init>(BasicStroke.java:278)
+	at de.gurkenlabs.litiengine.graphics.RenderEngine.renderOutline(RenderEngine.java:280)
+	at de.gurkenlabs.litiengine.graphics.DebugRenderer.drawTileBoundingBox(DebugRenderer.java:182)
+	at de.gurkenlabs.litiengine.graphics.DebugRenderer.renderMapDebugInfo(DebugRenderer.java:153)
+	at de.gurkenlabs.litiengine.environment.Environment.render(Environment.java:2316)
+	at de.gurkenlabs.litiengine.gui.screens.GameScreen.render(GameScreen.java:24)
+	at de.gurkenlabs.litiengine.graphics.RenderComponent.render(RenderComponent.java:130)
+	at de.gurkenlabs.litiengine.GameLoop.process(GameLoop.java:93)
+	at de.gurkenlabs.litiengine.UpdateLoop.run(UpdateLoop.java:57)
+
+====Runtime Information====
+Operating System: Windows 11
+	Architecture: amd64
+	Version: 10.0
+Memory:
+	Max heap size: 3,9 GiB
+	Current heap size: 252,0 MiB
+	Heap used: 51,7 MiB
+	Free heap: 200,3 MiB
+Java Version: Java(TM) SE Runtime Environment 19.0.2+7-44 
+	Vendor: Oracle Corporation
+Uptime: PT16.79S
+Screens: 1
+	Screen 0: 1366x768@60hz
+
