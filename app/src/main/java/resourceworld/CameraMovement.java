@@ -12,7 +12,6 @@ public final class CameraMovement implements IUpdateable{
 
     private Camera camera;
     private Point2D lastMousePosition;
-    private long lastTick;
     private boolean moving;
 
     CameraMovement(){
@@ -31,7 +30,6 @@ public final class CameraMovement implements IUpdateable{
         camera.setZoom(0.3f, 0);
         camera.setFocus(100, 350);
         moving = false;
-        // lastMousePosition = new Double(Input.mouse().getLocation().getX(),Input.mouse().getLocation().getY());
     }
 
     @Override

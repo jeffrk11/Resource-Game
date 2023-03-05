@@ -1,10 +1,10 @@
-Sat Mar 04 15:55:39 BRT 2023 main threw an exception:
+Sun Mar 05 11:31:12 BRT 2023 main threw an exception:
 de.gurkenlabs.litiengine.resources.ResourceLoadException: de.gurkenlabs.litiengine.environment.tilemap.xml.TmxException
 	at de.gurkenlabs.litiengine.resources.ResourcesContainer.loadResource(ResourcesContainer.java:395)
 	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
 	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:276)
 	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:209)
-	at resourceworld.App.main(App.java:26)
+	at resourceworld.App.main(App.java:27)
 Caused by: de.gurkenlabs.litiengine.environment.tilemap.xml.TmxException
 	at de.gurkenlabs.litiengine.resources.Maps.load(Maps.java:111)
 	at de.gurkenlabs.litiengine.resources.Maps.load(Maps.java:32)
@@ -49,7 +49,7 @@ Memory:
 	Free heap: 226,7 MiB
 Java Version: Java(TM) SE Runtime Environment 17.0.4.1+1-LTS-2 
 	Vendor: Oracle Corporation
-Uptime: PT1.038S
+Uptime: PT1.239S
 Screens: 1
 	Screen 0: 1366x768@60hz
 
